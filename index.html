@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body> 
+        <h1>word guess game</h1>
+        <style> 
+        h1 {
+            font-size: 50px;
+            text-align: center;
+            background-color: gray;
+        }
+    
+        body {
+            color: black;
+        }
+        
+        </style>
+<script> 
+
+alert("spell my name correctly, you have 5 guess");
+
+var answer= "eshetu";
+var guess=prompt("what is ur guess?");
+
+for (i=0;i<4;i++){
+    if (answer==guess){
+        alert("u guessed correctly");
+        break;
+
+    }else{
+        guess=prompt("please try again");
+        
+    }
+}
+
+    </script> 
+   
+</body>
+</html>
