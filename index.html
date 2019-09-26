@@ -1,44 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+       crossorigin="anonymous">
+   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+   <title> Eshetu</title>
 </head>
-<body> 
-        <h1>word guess game</h1>
-        <style> 
-        h1 {
-            font-size: 50px;
-            text-align: center;
-            background-color: gray;
-        }
-    
-        body {
-            color: black;
-        }
-        
-        </style>
-<script> 
-
-alert("spell my name correctly, you have 5 guess");
-
-var answer= "eshetu";
-var guess=prompt("what is ur guess?");
-
-for (i=0;i<4;i++){
-    if (answer==guess){
-        alert("u guessed correctly");
-        break;
-
-    }else{
-        guess=prompt("please try again");
-        
-    }
-}
-
-    </script> 
-   
+<body>
+   <header>
+       <div class="jumbotron">
+       </div>
+   </header>
+   <div class="container ">
+       <div class="row-md-12">
+           <div class="col-m-5 card">
+               <img src="http://cdn.24.co.za/files/Cms/General/d/8439/fe2bd3548bb44867b2534a083d8d6849.jpg 
+" alt="The question">
+               <p id='character-description'></p>
+           </div>
+           <div class="col-m-5 card">
+               <p id="directions">Press Any Key to Start</p>
+               Guesses
+               <p id="wrong-guesses"></p>
+               <p id="underscores"> _ _ _ </p>
+               Guesses Remaining
+               <p id="guesses-remaining"></p>
+               game won 
+               <p id="win-counter"></p>
+               game lost
+               <p id="loss-counter"></p>
+           </div>
+       </div>
+   </div>
+   <footer>footer</footer>
 </body>
+<script src="assets/javascript/game.js"></script>
 </html>

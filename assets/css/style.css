@@ -1,0 +1,48 @@
+img {
+    width: 500px;
+    height: 300px;
+ }
+ p {
+    font-size: 30px;
+    padding: 0px 0px;
+    color: rgb(247, 247, 247);
+ }
+ #directions {
+    font-size: 26px;
+    color: rgb(161, 0, 219);
+ }
+ .card {
+    display: inline-block;
+    margin: 15px 15px;
+    padding: 10px;
+    width: 45%;
+    background: none;
+    color: white;
+ }
+ .container {
+    font-family: "ani";
+    text-align: center;
+    background: rgb(22, 26, 22);
+    opacity: 0.9;
+    filter: alpha(opacity=60);
+    font-size-adjust: 20px;
+    padding: 30px;
+    max-width: 900px;
+    height: 600px;
+    overflow: auto;
+ }
+ .jumbotron {
+    background: none;
+ }
+ body {
+    background-image: url("https://www.colourbox.com/preview/4630197-green-forest.jpg");
+    width: 100%;
+    height: auto;
+ }
+ header {
+    font-family: "ring-bearer";
+    font-size: 80px;
+    color: rgb(102, 94, 94);
+    margin: 4 auto;
+    background: none;
+ }
